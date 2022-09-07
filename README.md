@@ -5,5 +5,5 @@ This voxel shift map can be applied to distortion correct the same dataset or a 
 
 The script requires:
 - FSL 6.0 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
-- additional topup_config.cfg file to be located in the same directory the same directory
-
+- additional topup_config.cfg file to be downloaded to the same directory the same directory
+- input data: two 3D/4D EPI datasets acquired with oposite polarity of slice-encoding gradient and otherwise identical
