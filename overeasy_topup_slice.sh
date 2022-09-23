@@ -1,5 +1,7 @@
 #!/bin/sh
-# POSIX
+# # Anna Blazejewska Sept 2022
+# If you use this code please cite:
+# Blazejewska et al., Slice-direction geometric distortion evaluation and correction with reversed slice-select gradient acquisitions., NeuroImage 2022.
 
 # NOTE: requires preinstalled FSL 6.0 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
 
