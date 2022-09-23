@@ -1,4 +1,8 @@
 # overeasy-topup
+Author: Anna Blazejewska
+If you use this code please cite:
+Blazejewska et al., Slice-direction geometric distortion evaluation and correction with reversed slice-select gradient acquisitions., NeuroImage 2022.
+
 This is a UNIX shell script to perform correction of EPI MRI data geometric distortion occuring in slice-encoding direction.
 It requires input datasets acuired with two opposite slice gradient encoding polarities which are used to calculate a voxel shift map.
 This voxel shift map can be applied to distortion correct the same datasets or a pair of different but *matched* datasets.
