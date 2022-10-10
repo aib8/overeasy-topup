@@ -1,10 +1,12 @@
 #!/bin/sh
-# # Anna Blazejewska Sept 2022
+# Author: Anna Blazejewska Sept 2022
+# This work is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+#
 # If you use this code please cite:
 # Blazejewska et al., Slice-direction geometric distortion evaluation and correction with reversed slice-select gradient acquisitions., NeuroImage 2022.
-
+#
 # NOTE: requires preinstalled FSL 6.0 (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
-
+#
 # overeasy_topup_slice.sh input1 input2 [-apply input3 input4]
 # 
 # input1 = 3D/4D dataset with slice encoding gradient polarity +z
