@@ -1,5 +1,8 @@
 # overeasy-topup
+This work is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
 Author: Anna Blazejewska
+
 If you use this code please cite:
 Blazejewska et al., Slice-direction geometric distortion evaluation and correction with reversed slice-select gradient acquisitions., NeuroImage 2022.
 
