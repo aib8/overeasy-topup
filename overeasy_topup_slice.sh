@@ -48,9 +48,9 @@ fslmerge -t $topup_input ${input1/.nii.gz/_rot.nii.gz} ${input2/.nii.gz/_rot.nii
 # TOPUP: create corresponding list file 
 rm topup_info.txt
 echo "0 1 0 1" > topup_info.txt
-for (( c=1; c<$N; c++ )); do echo "0 1 0 1" >> topup_info.txt done;
+for (( c=1; c<$N; c++ )); do echo "0 1 0 1" >> topup_info.txt; done;
 echo "0 -1 0 1" >> topup_info.txt
-for (( c=1; c<$N; c++ )); do echo "0 -1 0 1" >> topup_info.txt done;
+for (( c=1; c<$N; c++ )); do echo "0 -1 0 1" >> topup_info.txt; done;
 
 
 # TOPUP: config file
@@ -58,7 +58,7 @@ topup_cfg_file=./topup_config.cnf
 
 
 # TOPUP: calculate deformation
-echo topup --v -imain=$topup_input --datain=./topup_info.txt --config=$topup_cfg_file --out=${topup_input/.nii.gz/} --fout=${topup_input/.nii.gz/_field.nii.gz} --dfout=${topup_input/.nii.gz/_deformation}
+echo topup -v -imain=$topup_input --datain=./topup_info.txt --config=$topup_cfg_file --out=${topup_input/.nii.gz/} --fout=${topup_input/.nii.gz/_field.nii.gz} --dfout=${topup_input/.nii.gz/_deformation}
 topup -v --imain=$topup_input --datain=./topup_info.txt --config=$topup_cfg_file --out=${topup_input/.nii.gz/} --fout=${topup_input/.nii.gz/_field.nii.gz} --dfout=${topup_input/.nii.gz/_deformation}
 
 
